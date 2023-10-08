@@ -41,25 +41,25 @@ const task2 = createApp({
         case 4:
         case 5:
           this.textCloth = "Легкая куртка, джинсы, кроссовки, шапка.";
-          this.imgWeather = "/HM№1/task2/spring.jpg";
+          this.imgWeather = "./task2/spring.jpg";
           break;
         case 6:
         case 7:
         case 8:
           this.textCloth = "Майка, шорты, шлепки, кепка.";
-          this.imgWeather = "/HM№1/task2/summer.jpg";
+          this.imgWeather = "./task2/summer.jpg";
           break;
         case 9:
         case 10:
         case 11:
           this.textCloth = "Ветровка, джинынсы, кроссовки.";
-          this.imgWeather = "/HM№1/task2/autum.jpg";
+          this.imgWeather = "./task2/autum.jpg";
           break;
         case 12:
         case 1:
         case 2:
           this.textCloth = "Тёплая куртка, шапка, утепленные штаны, ботинки.";
-          this.imgWeather = "/HM№1/task2/winter.jpg";
+          this.imgWeather = "./task2/winter.jpg";
           break;
         default:
           this.textCloth = "Задайте месяц от 1 до 12!";
